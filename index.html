@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="trigger-modal">
+        <h2 class="title">Hariharan</h2>
+      <button class="trigger-btn" onclick="open1()">Read more</button>
+    </div>
+    <div class="modal" >
+        <div class="modal-head">
+            <h2 class="head">I'm Hariharan</h2>
+            <div class="btn"><button type="button" onclick="end()" class="cross">&times</button></div>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur nobis nulla! Officiis exercitationem sequi aliquam repellat culpa dicta dolores voluptas, eligendi sit labore dolorum temporibus. Iure consequatur in repudiandae?</p>
+        </div>
+        <div class="modal-footer">
+            <button class="close" onclick="close1()">Close</button>
+            <button class="save">Save</button>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
